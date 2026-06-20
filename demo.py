@@ -50,7 +50,7 @@ def main():
     except LabCapacityError as e:
         print("Blocked as expected:", e)
 
-    hr("Req 158: Maintenance lockout")
+    hr("Req 159: Maintenance lockout")
     task = CorrectiveMaintenance(pe, scheduled_date=monday.date(), reason="Calibration drift")
     task.execute()
     print("Maintenance scheduled for EQ-LA-1")

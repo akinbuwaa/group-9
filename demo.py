@@ -13,13 +13,13 @@ from lab_system import (
 
 
 def hr(title):
-    print("\n" + "=" * 61)
+    print("\n" + "=" * 60)
     print(title)
-    print("=" * 61)
+    print("=" * 60)
 
 
 def main():
-    system = BookingSystem("Computer Engineering Department")
+    system = BookingSystem("FUOYE Computer Engineering Department")
 
     lab = Laboratory("LAB-EMB", "Embedded Systems Lab", "ESL01", "Embedded Systems Lab", capacity=2)
     scope = Equipment("EQ-SCOPE-1", "Oscilloscope", "LAB-EQ-0001", "Tektronix", "TBS1052B")

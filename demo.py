@@ -62,7 +62,7 @@ def main():
     hr("Req 159: Condition degradation")
     print("Initial condition:", cnc.condition.value)
     day = 0
-    hours = 0
+    hours = 1
     while hours < 153:  # cross 3 degradation thresholds -> POOR
         system.book("EQ-CNC-1", TimeSlot(monday.replace(hour=7) + timedelta(days=day),
                                          monday.replace(hour=21) + timedelta(days=day)), f"student{day}")

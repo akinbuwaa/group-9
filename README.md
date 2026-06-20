@@ -5,7 +5,7 @@ Federal University Oye-Ekiti | Academic Year 2025/2026
 
 Akinbuwa Ayomide Triumphant | CPE/2022/1115 | akinbuwaa
 
-Damilare Daniel Inioluwa| CPE/2023/1116 | TRIPLE-D2000
+Dmilare Daniel Inioluwa| CPE/2023/1116 | TRIPLE-D2000
 
 Afolabi Olarewaju | CPE/2023/1113 | afolabiolanrewaju341-sudo
 

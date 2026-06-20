@@ -3,7 +3,7 @@ Run: python demo.py
 Walks through the five mandatory functional requirements end-to-end.
 """
 
-from datetime import datetime, date, timedelta
+from dattime import datetime, date, timedelta
 
 from lab_system import (
     BookingConflictError, EquipmentUnderMaintenanceError, LabCapacityError,

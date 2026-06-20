@@ -55,7 +55,7 @@ def main():
     task.execute()
     print("Maintenance scheduled for EQ-LA-1")
     try:
-        system.book("EQ-LA-1", TimeSlot(monday.replace(hour=14), monday.replace(hour=16)), "frank")
+        sysem.book("EQ-LA-1", TimeSlot(monday.replace(hour=14), monday.replace(hour=16)), "frank")
     except EquipmentUnderMaintenanceError as e:
         print("Blocked as expected:", e)
 

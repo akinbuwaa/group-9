@@ -33,7 +33,7 @@ def main():
     cnc = Equipment("EQ-CNC-1", "CNC Router", "LAB-EQ-0040", "Shapeoko", "Pro")
     lab.add_equipment(cnc)
 
-    monday = datetime(2026, 6, 22)
+    monday = datetime(2026, 06, 22)
 
     hr("Req 156: Overlap detection")
     system.book("EQ-SCOPE-1", TimeSlot(monday.replace(hour=8), monday.replace(hour=10)), "alice")

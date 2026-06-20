@@ -20,8 +20,8 @@ Opeyemi Isaac Ayomide| CPE/2022/1118 | opeyemiisaac232-coder
 Adeosun Emmanuel Tiwaloluwa| CPE/2023/1121 | adeosunemmanuel
 
 Agunbiade Pamilerin Isaac | CPE/2023/1114
-Emodadi Ambrose Osivwe | CPE/2022/1114 | Ambrose-wayne
 
+Emodadi Ambrose Osivwe | CPE/2022/1114 | Ambrose-wayne
 
 ## Overview
 

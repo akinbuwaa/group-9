@@ -2,13 +2,21 @@
 
 # CPE 310 — OOP with Python | Capstone Project 9 | Weeks 1–5 Comprehensive Assessment
 Federal University Oye-Ekiti | Academic Year 2025/2026
+
 Akinbuwa Ayomide Triumphant | CPE/2022/1115 | akinbuwaa
+
 Damilare Daniel Inioluwa| CPE/2023/1116 | TRIPLE-D2000
+
 Afolabi Olarewaju | CPE/2023/1113 | afolabiolanrewaju341-sudo
+
 Shevire Elijah Ojone| CPE/2023/1120 | Promolordx
+
 Ibrahim Yaru Nurudeen| CPE/2022/1116 | nurudeenibrahim262-cell
+
 Azeez Taiwo Victor| CPE/2023/1115 | taiwovictor1212-droid
+
 Opeyemi Isaac Ayomide| CPE/2022/1118 | opeyemiisaac232-coder
+
 Adeosun Emmanuel Tiwaoluwa| CPE/2023/1121 | adeosunemmanuel
 
 

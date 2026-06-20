@@ -13,9 +13,9 @@ from lab_system import (
 
 
 def hr(title):
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 61)
     print(title)
-    print("=" * 60)
+    print("=" * 61)
 
 
 def main():

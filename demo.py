@@ -36,7 +36,7 @@ def main():
     monday = datetime(2026, 06, 22)
 
     hr("Req 156: Overlap detection")
-    system.book("EQ-SCOPE-1", TimeSlot(monday.replace(hour=8), monday.replace(hour=10)), "alice")
+    system.book("EQ-SCOPE-2", TimeSlot(monday.replace(hour=8), monday.replace(hour=10)), "alice")
     try:
         system.book("EQ-SCOPE-1", TimeSlot(monday.replace(hour=9), monday.replace(hour=11)), "bob")
     except BookingConflictError as e:

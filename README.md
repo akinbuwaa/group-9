@@ -13,7 +13,7 @@ Shevire Elijah Ojone| CPE/2023/1120 | Promolordx
 
 Ibrahim Yaru Nurudeen| CPE/2022/1116 | nurudeenibrahim262-cell
 
-Azeez Taiwo Victor| CPE/2023/1115 | taiwovictor1212-droid
+Azez Taiwo Victor| CPE/2023/1115 | taiwovictor1212-droid
 
 Opeyemi Isaac Ayomide| CPE/2022/1118 | opeyemiisaac232-coder
 

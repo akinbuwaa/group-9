@@ -7,7 +7,7 @@ Akinbuwa Ayomide Triumphant | CPE/2022/1115 | akinbuwaa
 
 Damilare Daniel Inioluwa| CPE/2023/1116 | TRIPLE-D2000
 
-Afolabi Olarewaju | CPE/2023/1113 | afolabiolanrewaju341-sudo
+Afolabi Olanrewaju Abiodun | CPE/2023/1113 | afolabiolanrewaju341-sudo
 
 Shevire Elijah Ojone| CPE/2023/1120 | Promolordx
 

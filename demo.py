@@ -1,6 +1,6 @@
 """Live demo script for the project showcase.
 Run: python demo.py
-Walks through the four mandatory functional requirements end-to-end.
+Walks through the five mandatory functional requirements end-to-end.
 """
 
 from datetime import datetime, date, timedelta
@@ -30,6 +30,9 @@ def main():
                             initial_lab_code="ESL01")
     system.add_resource(pe)
 
+    cnc = Equipment("EQ-CNC-1", "CNC Router", "LAB-EQ-0040", "Shapeoko", "Pro")
+    lab.add_equipment(cnc)
+
     monday = datetime(2026, 6, 22)
 
     hr("Req 156: Overlap detection")
@@ -49,26 +52,25 @@ def main():
 
     hr("Req 158: Maintenance lockout")
     task = CorrectiveMaintenance(pe, scheduled_date=monday.date(), reason="Calibration drift")
+    task.execute()
+    print("Maintenance scheduled for EQ-LA-1")
     try:
         system.book("EQ-LA-1", TimeSlot(monday.replace(hour=14), monday.replace(hour=16)), "frank")
     except EquipmentUnderMaintenanceError as e:
         print("Blocked as expected:", e)
-    report = task.execute()
-    print("Maintenance complete:", report)
 
     hr("Req 159: Condition degradation")
-    eq = Equipment("EQ-CNC-1", "CNC Router", "LAB-EQ-0040", "Shapeoko", "Pro")
-    print("Initial condition:", eq.condition.value)
+    print("Initial condition:", cnc.condition.value)
     day = 0
     hours = 0
     while hours < 153:  # cross 3 degradation thresholds -> POOR
-        eq.book(TimeSlot(monday.replace(hour=7) + timedelta(days=day),
-                          monday.replace(hour=21) + timedelta(days=day)), f"student{day}")
+        system.book("EQ-CNC-1", TimeSlot(monday.replace(hour=7) + timedelta(days=day),
+                                         monday.replace(hour=21) + timedelta(days=day)), f"student{day}")
         hours += 14
         day += 1
-        if eq.condition == Condition.POOR:
+        if cnc.condition == Condition.POOR:
             break
-    print("Condition after heavy use:", eq.condition.value)
+    print("Condition after heavy use:", cnc.condition.value)
 
     hr("Req 160/161: Utilisation rate & weekly report")
     rate = system.utilisation_rate("EQ-SCOPE-1", monday.date(), monday.date())

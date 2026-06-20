@@ -1,4 +1,4 @@
-Daniel tetessssss"""Live demo script for the project showcase.
+"""Live demo script for the project showcase.
 Run: python demo.py
 Walks through the five mandatory functional requirements end-to-end.
 """
@@ -55,7 +55,7 @@ def main():
     task.execute()
     print("Maintenance scheduled for EQ-LA-1")
     try:
-        sysem.book("EQ-LA-1", TimeSlot(monday.replace(hour=14), monday.replace(hour=16)), "frank")
+        system.book("EQ-LA-1", TimeSlot(monday.replace(hour=14), monday.replace(hour=16)), "frank")
     except EquipmentUnderMaintenanceError as e:
         print("Blocked as expected:", e)
 
